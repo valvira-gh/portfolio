@@ -38,5 +38,8 @@ jobs:
         securestack_api_key: undefined
         # SecureStack Application ID - can be retrieved by accessing required application at https://app.securestack.com
         securestack_app_id: undefined
-        # Severities lower than this value will be reported in the workflow console but will not cause an error for the action; value should be one of: critical | high | medium | low
+        # Severities lower than the
+        is value will be reported in the workflow console but will not cause an error for the action; value should be one of: critical | high | medium | low
         severity: unedfined
+        name: test
+        echo: "29fc8cf2dab4c195bb147384e7e2c94cfd4d4022c793b346a6175435265aa278  actions-runner-linux-x64-2.311.0.tar.gz" | shasum -a 256 -c
