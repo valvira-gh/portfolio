@@ -13,7 +13,7 @@
     "react-dom": "^18",
     "next": "14.0.1"
   },
-  "devDependencies": {
+  "devDependencies": {c  d
     "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
